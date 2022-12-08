@@ -11,7 +11,7 @@ def recursiveSolution(n):
         z = recursiveSolution(n-3)  
         return x + y + z 
 
-b. A faster algorithm to help the frog can be found using dynamic programming, as given below:
+## b. A faster algorithm to help the frog can be found using dynamic programming, as given below:
 
 def dynamicSolution(n): 
     # Create an array to store the results 
